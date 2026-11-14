@@ -1,0 +1,121 @@
+{
+  "fetched_at": "2026-11-15T04:51:12",
+  "source": "file",
+  "window": [
+    "2026-10-16",
+    "2026-11-15"
+  ],
+  "companies": {
+    "HDFCBANK": {
+      "ok": true,
+      "announcements": 17,
+      "without_pdf": 0
+    },
+    "ICICIBANK": {
+      "ok": true,
+      "announcements": 14,
+      "without_pdf": 0
+    },
+    "SBIN": {
+      "ok": true,
+      "announcements": 15,
+      "without_pdf": 0
+    },
+    "TCS": {
+      "ok": true,
+      "announcements": 5,
+      "without_pdf": 0
+    },
+    "INFY": {
+      "ok": true,
+      "announcements": 16,
+      "without_pdf": 0
+    },
+    "RELIANCE": {
+      "ok": true,
+      "announcements": 19,
+      "without_pdf": 0
+    },
+    "MARUTI": {
+      "ok": true,
+      "announcements": 15,
+      "without_pdf": 0
+    },
+    "M&M": {
+      "ok": true,
+      "announcements": 24,
+      "without_pdf": 0
+    },
+    "HINDUNILVR": {
+      "ok": true,
+      "announcements": 17,
+      "without_pdf": 0
+    },
+    "ITC": {
+      "ok": true,
+      "announcements": 7,
+      "without_pdf": 0
+    },
+    "SUNPHARMA": {
+      "ok": true,
+      "announcements": 13,
+      "without_pdf": 1
+    },
+    "CIPLA": {
+      "ok": true,
+      "announcements": 14,
+      "without_pdf": 0
+    },
+    "TATASTEEL": {
+      "ok": true,
+      "announcements": 17,
+      "without_pdf": 0
+    },
+    "HINDALCO": {
+      "ok": true,
+      "announcements": 16,
+      "without_pdf": 0
+    },
+    "NTPC": {
+      "ok": true,
+      "announcements": 16,
+      "without_pdf": 0
+    },
+    "ONGC": {
+      "ok": true,
+      "announcements": 13,
+      "without_pdf": 0
+    },
+    "POLYCAB": {
+      "ok": true,
+      "announcements": 10,
+      "without_pdf": 0
+    },
+    "KAYNES": {
+      "ok": true,
+      "announcements": 10,
+      "without_pdf": 0
+    },
+    "AXISBANK": {
+      "ok": true,
+      "announcements": 19,
+      "without_pdf": 0
+    },
+    "BAJFINANCE": {
+      "ok": true,
+      "announcements": 20,
+      "without_pdf": 0
+    },
+    "BHARTIARTL": {
+      "ok": true,
+      "announcements": 24,
+      "without_pdf": 0
+    },
+    "TRENT": {
+      "ok": true,
+      "announcements": 14,
+      "without_pdf": 0
+    }
+  },
+  "not_attempted": []
+}
