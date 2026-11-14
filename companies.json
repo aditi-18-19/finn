@@ -1,0 +1,156 @@
+{
+  "portfolio": [
+    {
+      "nse_symbol": "HDFCBANK",
+      "bse_scrip_code": "500180",
+      "name": "HDFC Bank Limited",
+      "sector": "Banking",
+      "weight": 8
+    },
+    {
+      "nse_symbol": "ICICIBANK",
+      "bse_scrip_code": "532174",
+      "name": "ICICI Bank Limited",
+      "sector": "Banking",
+      "weight": 7
+    },
+    {
+      "nse_symbol": "SBIN",
+      "bse_scrip_code": "500112",
+      "name": "State Bank of India",
+      "sector": "Banking",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "TCS",
+      "bse_scrip_code": "532540",
+      "name": "Tata Consultancy Services Limited",
+      "sector": "IT",
+      "weight": 7
+    },
+    {
+      "nse_symbol": "INFY",
+      "bse_scrip_code": "500209",
+      "name": "Infosys Limited",
+      "sector": "IT",
+      "weight": 6
+    },
+    {
+      "nse_symbol": "RELIANCE",
+      "bse_scrip_code": "500325",
+      "name": "Reliance Industries Limited",
+      "sector": "Energy",
+      "weight": 9
+    },
+    {
+      "nse_symbol": "MARUTI",
+      "bse_scrip_code": "532500",
+      "name": "Maruti Suzuki India Limited",
+      "sector": "Automobile",
+      "weight": 6
+    },
+    {
+      "nse_symbol": "M&M",
+      "bse_scrip_code": "500520",
+      "name": "Mahindra & Mahindra Limited",
+      "sector": "Automobile",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "HINDUNILVR",
+      "bse_scrip_code": "500696",
+      "name": "Hindustan Unilever Limited",
+      "sector": "FMCG",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "ITC",
+      "bse_scrip_code": "500875",
+      "name": "ITC Limited",
+      "sector": "FMCG",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "SUNPHARMA",
+      "bse_scrip_code": "524715",
+      "name": "Sun Pharmaceutical Industries Limited",
+      "sector": "Pharma",
+      "weight": 6
+    },
+    {
+      "nse_symbol": "CIPLA",
+      "bse_scrip_code": "500087",
+      "name": "Cipla Limited",
+      "sector": "Pharma",
+      "weight": 4
+    },
+    {
+      "nse_symbol": "TATASTEEL",
+      "bse_scrip_code": "500470",
+      "name": "Tata Steel Limited",
+      "sector": "Metals",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "HINDALCO",
+      "bse_scrip_code": "500440",
+      "name": "Hindalco Industries Limited",
+      "sector": "Metals",
+      "weight": 4
+    },
+    {
+      "nse_symbol": "NTPC",
+      "bse_scrip_code": "532555",
+      "name": "NTPC Limited",
+      "sector": "Power",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "ONGC",
+      "bse_scrip_code": "500312",
+      "name": "Oil & Natural Gas Corporation Limited",
+      "sector": "Oil & Gas",
+      "weight": 4
+    },
+    {
+      "nse_symbol": "POLYCAB",
+      "bse_scrip_code": "542652",
+      "name": "Polycab India Limited",
+      "sector": "Electricals",
+      "weight": 5
+    },
+    {
+      "nse_symbol": "KAYNES",
+      "bse_scrip_code": "543664",
+      "name": "Kaynes Technology India Limited",
+      "sector": "Electronics",
+      "weight": 4
+    }
+  ],
+  "research": [
+    {
+      "nse_symbol": "AXISBANK",
+      "bse_scrip_code": "532215",
+      "name": "Axis Bank Limited",
+      "sector": "Banking"
+    },
+    {
+      "nse_symbol": "BAJFINANCE",
+      "bse_scrip_code": "500034",
+      "name": "Bajaj Finance Limited",
+      "sector": "Financial Services"
+    },
+    {
+      "nse_symbol": "BHARTIARTL",
+      "bse_scrip_code": "532454",
+      "name": "Bharti Airtel Limited",
+      "sector": "Telecom"
+    },
+    {
+      "nse_symbol": "TRENT",
+      "bse_scrip_code": "500251",
+      "name": "Trent Limited",
+      "sector": "Retail"
+    }
+  ]
+}
