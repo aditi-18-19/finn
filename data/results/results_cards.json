@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.1",
+  "periods": [
+    "Q2_FY27",
+    "Q1_FY27",
+    "Q2_FY26"
+  ],
+  "formula": "EBITDA = PBT + Finance cost + Depreciation - Other income (industrial companies only)",
+  "results": [
+    {
+      "company": "HDFCBANK",
+      "source_pdf": "HDFCBANK_ae8b989d.pdf",
+      "source_pages": [
+        9
+      ],
+      "source_sha256": "1a25f460842bbd8e3632a000cdbc625d7aa1ec2934d3b0d8b60d270bb33e3bdf",
+      "statement_type": "consolidated",
+      "profile": "bank",
+      "unit": "INR crore",
+      "periods": {
+        "Q2_FY27": "Quarter ended 30 September 2026",
+        "Q1_FY27": "Quarter ended 30 June 2026",
+        "Q2_FY26": "Quarter ended 30 September 2025"
+      },
+      "metrics": {
+        "revenue": {
+          "values": {
+            "Q2_FY27": 129358.69,
+            "Q1_FY27": 133110.36,
+            "Q2_FY26": 118560.63
+          },
+          "qoq_pct": -2.82,
+          "yoy_pct": 9.11,
+          "row_label": "Total Income (1)+(2)",
+          "evidence": "3  Total Income (1)+(2)                                          129358.69      13311O.36    11856O.63    262469.O5    251615.6O    495462.81"
+        },
+        "finance_cost": {
+          "values": {
+            "Q2_FY27": 50667.43,
+            "Q1_FY27": 47625.63,
+            "Q2_FY26": 46740.86
+          },
+          "qoq_pct": 6.39,
+          "yoy_pct": 8.4,
+          "row_label": "Interest expended",
+          "evidence": "4  Interest expended                                               50667.43       47625.63      46740.86      98293.O6      94449.37    185491.23"
+        },
+        "depreciation": {
+          "values": {
+            "Q2_FY27": null,
+            "Q1_FY27": null,
+            "Q2_FY26": null
+          },
+          "qoq_pct": null,
+          "yoy_pct": null,
+          "row_label": "Not separately disclosed",
+          "evidence": "",
+          "note": "Not separately disclosed in the consolidated quarterly results statement."
+        },
+        "other_income": {
+          "values": {
+            "Q2_FY27": 34227.06,
+            "Q1_FY27": 42535.03,
+            "Q2_FY26": 31566.79
+          },
+          "qoq_pct": -19.53,
+          "yoy_pct": 8.43,
+          "row_label": "Other Income (a)+(b)",
+          "evidence": "2  Other Income (a)+(b)                                           34227.O6       42535.O3      31566.79     76762.O9     77249.89    146847.66"
+        },
+        "pbt": {
+          "values": {
+            "Q2_FY27": 28662.54,
+            "Q1_FY27": 27193.16,
+            "Q2_FY26": 26658.89
+          },
+          "qoq_pct": 5.4,
+          "yoy_pct": 7.52,
+          "row_label": "Profit from ordinary activities before tax and minority interest",
+          "evidence": "1O Profit from ordinary activities before tax and minority              28662.54       27193.16      26658.89     55855.70     475O8.72    1O2141.45"
+        },
+        "pat": {
+          "values": {
+            "Q2_FY27": 20700.03,
+            "Q1_FY27": 19244.71,
+            "Q2_FY26": 19610.67
+          },
+          "qoq_pct": 7.56,
+          "yoy_pct": 5.55,
+          "row_label": "Net profit for the period (14)-(15)",
+          "evidence": "16 Net profit for the period (14)-(15)                                 2O7OO.O3       19244.71     1961O.67      39944.74      35868.58     76O25.97"
+        }
+      },
+      "ebitda": null,
+      "ebitda_note": "Not applicable: conventional EBITDA is not a comparable headline measure for banks.",
+      "notes": [
+        "Deterministic extraction from consolidated results, PDF page 9.",
+        "Revenue maps to Total Income; finance cost maps to Interest expended.",
+        "PAT is the net profit for the period after minority interest (row 16).",
+        "OCR letter O was normalised to digit 0 only within numeric tokens.",
+        "Depreciation is not separately disclosed; conventional EBITDA is not applicable to banks."
+      ],
+      "validation": {
+        "status": "validated",
+        "issues": [],
+        "verification_method": "pdf_text_and_numeric_evidence"
+      },
+      "extraction_method": "pymupdf_deterministic",
+      "model": null,
+      "extracted_at_epoch": 1794761823
+    },
+    {
+      "company": "ICICIBANK",
+      "source_pdf": "ICICIBANK_2871e7ba.pdf",
+      "source_pages": [
+        13
+      ],
+      "source_sha256": "b28a719174d31592413f317e9baf527e4dd127f18b2468179d9cc0bfa74fabd1",
+      "statement_type": "consolidated",
+      "profile": "bank",
+      "unit": "INR crore",
+      "periods": {
+        "Q2_FY27": "Quarter ended 30 September 2026",
+        "Q1_FY27": "Quarter ended 30 June 2026",
+        "Q2_FY26": "Quarter ended 30 September 2025"
+      },
+      "metrics": {
+        "revenue": {
+          "values": {
+            "Q2_FY27": 88161.18,
+            "Q1_FY27": 79689.22,
+            "Q2_FY26": 76146.59
+          },
+          "qoq_pct": 10.63,
+          "yoy_pct": 15.78,
+          "row_label": "TOTAL INCOME (1)+(2)",
+          "evidence": "3   TOTAL INCOME {11+121                    88,161.18      79,689.22      76,146.59     167,850.40    150,722.62    312,118.36"
+        },
+        "finance_cost": {
+          "values": {
+            "Q2_FY27": 25656.27,
+            "Q1_FY27": 23063.72,
+            "Q2_FY26": 22017.39
+          },
+          "qoq_pct": 11.24,
+          "yoy_pct": 16.53,
+          "row_label": "Interest expended",
+          "evidence": "4     Interest expended                           25,656.27      23,063.72      22,017.39      48,719.99      45,107.45      89,028.58"
+        },
+        "depreciation": {
+          "values": {
+            "Q2_FY27": null,
+            "Q1_FY27": null,
+            "Q2_FY26": null
+          },
+          "qoq_pct": null,
+          "yoy_pct": null,
+          "row_label": "Not separately disclosed",
+          "evidence": "",
+          "note": "Not separately disclosed in the consolidated quarterly results statement."
+        },
+        "other_income": {
+          "values": {
+            "Q2_FY27": 32169.27,
+            "Q1_FY27": 27448.37,
+            "Q2_FY26": 27965.68
+          },
+          "qoq_pct": 17.2,
+          "yoy_pct": 15.03,
+          "row_label": "Other income (e)+(f)",
+          "evidence": "2    Other income (el+(f]                         32,169.27      27,448.37      27,965.68      59,617.64      53,461.75     116,899.90"
+        },
+        "pbt": {
+          "values": {
+            "Q2_FY27": 23191.75,
+            "Q1_FY27": 21373.61,
+            "Q2_FY26": 19126.33
+          },
+          "qoq_pct": 8.51,
+          "yoy_pct": 21.26,
+          "row_label": "Profit from ordinary activities before tax and minority interest (row 12)",
+          "evidence": "12   19H10l+llll                                23,191.75      21,373.61      19,126.33      44,565.36      38,683.34      77.320.18"
+        },
+        "pat": {
+          "values": {
+            "Q2_FY27": 16333.18,
+            "Q1_FY27": 15440.06,
+            "Q2_FY26": 13357.06
+          },
+          "qoq_pct": 5.78,
+          "yoy_pct": 22.28,
+          "row_label": "Net profit for the period (row 17)",
+          "evidence": "17    1161                                      16,333.18      15,440.06      13,357.06      31,773.24     26,914.66     54,207.70"
+        }
+      },
+      "ebitda": null,
+      "ebitda_note": "Not applicable: conventional EBITDA is not a comparable headline measure for banks.",
+      "notes": [
+        "Deterministic extraction from consolidated results, PDF page 13.",
+        "Revenue maps to TOTAL INCOME; finance cost maps to Interest expended.",
+        "PBT is before tax and minority interest (row 12); PAT is net profit for the period (row 17), after minority attribution.",
+        "Depreciation is not separately disclosed; conventional EBITDA is not applicable to banks."
+      ],
+      "validation": {
+        "status": "validated",
+        "issues": [],
+        "verification_method": "pdf_text_and_numeric_evidence"
+      },
+      "extraction_method": "pymupdf_deterministic",
+      "model": null,
+      "extracted_at_epoch": 1794761823
+    },
+    {
+      "company": "INFY",
+      "source_pdf": "INFY_bbfbd1a4.pdf",
+      "source_pages": [
+        18
+      ],
+      "source_sha256": "65e459d2b8bc4ed1e754d15250e209f68db29d06e0b98593c7a023d29b6ef151",
+      "statement_type": "consolidated",
+      "profile": "industrial",
+      "unit": "INR crore",
+      "periods": {
+        "Q2_FY27": "Quarter ended 30 September 2026",
+        "Q1_FY27": "Quarter ended 30 June 2026",
+        "Q2_FY26": "Quarter ended 30 September 2025"
+      },
+      "metrics": {
+        "revenue": {
+          "values": {
+            "Q2_FY27": 49244,
+            "Q1_FY27": 48211,
+            "Q2_FY26": 44490
+          },
+          "qoq_pct": 2.14,
+          "yoy_pct": 10.69,
+          "row_label": "Revenue from operations",
+          "evidence": "Revenue from operations | 49,244 | 48,211 | 44,490"
+        },
+        "finance_cost": {
+          "values": {
+            "Q2_FY27": 115,
+            "Q1_FY27": 119,
+            "Q2_FY26": 106
+          },
+          "qoq_pct": -3.36,
+          "yoy_pct": 8.49,
+          "row_label": "Finance cost",
+          "evidence": "Finance cost | 115 | 119 | 106"
+        },
+        "depreciation": {
+          "values": {
+            "Q2_FY27": 1359,
+            "Q1_FY27": 1246,
+            "Q2_FY26": 1182
+          },
+          "qoq_pct": 9.07,
+          "yoy_pct": 14.97,
+          "row_label": "Depreciation and amortisation expenses",
+          "evidence": "Depreciation and amortisation expenses | 1,359 | 1,246 | 1,182"
+        },
+        "other_income": {
+          "values": {
+            "Q2_FY27": 848,
+            "Q1_FY27": 984,
+            "Q2_FY26": 982
+          },
+          "qoq_pct": -13.82,
+          "yoy_pct": -13.65,
+          "row_label": "Other income, net",
+          "evidence": "Other income, net | 848 | 984 | 982"
+        },
+        "pbt": {
+          "values": {
+            "Q2_FY27": 11063,
+            "Q1_FY27": 11028,
+            "Q2_FY26": 10229
+          },
+          "qoq_pct": 0.32,
+          "yoy_pct": 8.15,
+          "row_label": "Profit before tax",
+          "evidence": "Profit before tax | 11,063 | 11,028 | 10,229"
+        },
+        "pat": {
+          "values": {
+            "Q2_FY27": 7838,
+            "Q1_FY27": 7775,
+            "Q2_FY26": 7375
+          },
+          "qoq_pct": 0.81,
+          "yoy_pct": 6.28,
+          "row_label": "Profit for the period",
+          "evidence": "Profit for the period | 7,838 | 7,775 | 7,375"
+        }
+      },
+      "ebitda": {
+        "Q2_FY27": 11689,
+        "Q1_FY27": 11409,
+        "Q2_FY26": 10535
+      },
+      "ebitda_note": "Calculated as PBT + Finance cost + Depreciation - Other income, as specified in the assignment.",
+      "notes": [
+        "Deterministic extraction from Statement of Consolidated Audited Results, PDF page 18.",
+        "The original page image was visually checked because the PDF text layer omits the revenue and other-income numeric cells.",
+        "Revenue, other income, depreciation, finance cost, PBT and PAT are in INR crore."
+      ],
+      "validation": {
+        "status": "validated",
+        "issues": [],
+        "verification_method": "visual_pdf_table_and_text"
+      },
+      "extraction_method": "pymupdf_deterministic",
+      "model": null,
+      "extracted_at_epoch": 1794761823
+    },
+    {
+      "company": "RELIANCE",
+      "source_pdf": "RELIANCE_results.pdf",
+      "source_pages": [
+        10
+      ],
+      "source_sha256": "7c1b0618fa7aeb2d2e951aa54ef31e88639aa44031ece74eced1e1fd96ee32db",
+      "statement_type": "consolidated",
+      "profile": "industrial",
+      "unit": "INR crore",
+      "periods": {
+        "Q2_FY27": "Quarter ended 30 September 2026",
+        "Q1_FY27": "Quarter ended 30 June 2026",
+        "Q2_FY26": "Quarter ended 30 September 2025"
+      },
+      "metrics": {
+        "revenue": {
+          "values": {
+            "Q2_FY27": 332861.0,
+            "Q1_FY27": 311850.0,
+            "Q2_FY26": 258898.0
+          },
+          "qoq_pct": 6.74,
+          "yoy_pct": 28.57,
+          "row_label": "Revenue from Operations",
+          "evidence": "Revenue from Operations                             332,861       311,850       258,898       644,711       507,558      1,075,675"
+        },
+        "finance_cost": {
+          "values": {
+            "Q2_FY27": 8481.0,
+            "Q1_FY27": 8337.0,
+            "Q2_FY26": 6827.0
+          },
+          "qoq_pct": 1.73,
+          "yoy_pct": 24.23,
+          "row_label": "Finance Costs",
+          "evidence": "Finance Costs                                             8,481          8,337         6,827        16,818        13,863         27,061"
+        },
+        "depreciation": {
+          "values": {
+            "Q2_FY27": 15315.0,
+            "Q1_FY27": 15100.0,
+            "Q2_FY26": 14416.0
+          },
+          "qoq_pct": 1.42,
+          "yoy_pct": 6.24,
+          "row_label": "Depreciation / Amortisation and Depletion Expense",
+          "evidence": "Depreciation / Amortisation and Depletion Expense           15,315        15,100        14,416        30,415        28,258        57,688"
+        },
+        "other_income": {
+          "values": {
+            "Q2_FY27": 5793.0,
+            "Q1_FY27": 6550.0,
+            "Q2_FY26": 4482.0
+          },
+          "qoq_pct": -11.56,
+          "yoy_pct": 29.25,
+          "row_label": "Other Income",
+          "evidence": "Other Income                                             5,793          6,550         4,482        12,343        19,601        28,962"
+        },
+        "pbt": {
+          "values": {
+            "Q2_FY27": 38613.0,
+            "Q1_FY27": 30630.0,
+            "Q2_FY26": 29124.0
+          },
+          "qoq_pct": 26.06,
+          "yoy_pct": 32.58,
+          "row_label": "Profit Before Tax",
+          "evidence": "Profit Before Tax                                     38,613        30,630        29,124        69,243        66,270       123,162"
+        },
+        "pat": {
+          "values": {
+            "Q2_FY27": 29250.0,
+            "Q1_FY27": 23001.0,
+            "Q2_FY26": 22146.0
+          },
+          "qoq_pct": 27.17,
+          "yoy_pct": 32.08,
+          "row_label": "Profit After Tax",
+          "evidence": "Profit After Tax                                       29,250         23,001        22,146         52,251         52,827        95,610"
+        }
+      },
+      "ebitda": {
+        "Q2_FY27": 56616.0,
+        "Q1_FY27": 47517.0,
+        "Q2_FY26": 45885.0
+      },
+      "ebitda_note": "Calculated as PBT + Finance cost + Depreciation - Other income, as specified in the assignment.",
+      "notes": [
+        "Deterministic extraction from consolidated financial results, PDF page 10.",
+        "PAT uses the Profit After Tax row before the separately disclosed share of associates and joint ventures."
+      ],
+      "validation": {
+        "status": "validated",
+        "issues": [],
+        "verification_method": "pdf_text_and_numeric_evidence"
+      },
+      "extraction_method": "pymupdf_deterministic",
+      "model": null,
+      "extracted_at_epoch": 1794761823
+    },
+    {
+      "company": "TATASTEEL",
+      "source_pdf": "TATASTEEL_results.pdf",
+      "source_pages": [
+        15
+      ],
+      "source_sha256": "2fccee05879435a581829cb01d2863729913fd2efb77853dc5649c6d7fe2d9b3",
+      "statement_type": "consolidated",
+      "profile": "industrial",
+      "unit": "INR crore",
+      "periods": {
+        "Q2_FY27": "Quarter ended 30 September 2026",
+        "Q1_FY27": "Quarter ended 30 June 2026",
+        "Q2_FY26": "Quarter ended 30 September 2025"
+      },
+      "metrics": {
+        "revenue": {
+          "values": {
+            "Q2_FY27": 65436.24,
+            "Q1_FY27": 60794.29,
+            "Q2_FY26": 58689.29
+          },
+          "qoq_pct": 7.64,
+          "yoy_pct": 11.5,
+          "row_label": "Total revenue from operations [1(a) + 1(b)]",
+          "evidence": "Total revenue from operations [ 1 (a) + 1 (b) ] | 65,436.24 | 60,794.29 | 58,689.29"
+        },
+        "finance_cost": {
+          "values": {
+            "Q2_FY27": 2005.32,
+            "Q1_FY27": 1770.51,
+            "Q2_FY26": 1774.96
+          },
+          "qoq_pct": 13.26,
+          "yoy_pct": 12.98,
+          "row_label": "Finance costs",
+          "evidence": "Finance costs | 2,005.32 | 1,770.51 | 1,774.96"
+        },
+        "depreciation": {
+          "values": {
+            "Q2_FY27": 3781.83,
+            "Q1_FY27": 3639.65,
+            "Q2_FY26": 2893.0
+          },
+          "qoq_pct": 3.91,
+          "yoy_pct": 30.72,
+          "row_label": "Depreciation and amortisation expense",
+          "evidence": "Depreciation and amortisation expense | 3,781.83 | 3,639.65 | 2,893.00"
+        },
+        "other_income": {
+          "values": {
+            "Q2_FY27": 248.28,
+            "Q1_FY27": 232.68,
+            "Q2_FY26": 363.55
+          },
+          "qoq_pct": 6.7,
+          "yoy_pct": -31.71,
+          "row_label": "Other income",
+          "evidence": "Other income | 248.28 | 232.68 | 363.55"
+        },
+        "pbt": {
+          "values": {
+            "Q2_FY27": 5455.15,
+            "Q1_FY27": 3837.53,
+            "Q2_FY26": 4222.47
+          },
+          "qoq_pct": 42.15,
+          "yoy_pct": 29.19,
+          "row_label": "Profit/(Loss) before tax [7+8]",
+          "evidence": "Profit/ (Loss) before tax [ 7 + 8 I | 5,455.15 | 3,837.53 | 4,222.47"
+        },
+        "pat": {
+          "values": {
+            "Q2_FY27": 3699.59,
+            "Q1_FY27": 2385.24,
+            "Q2_FY26": 3183.09
+          },
+          "qoq_pct": 55.1,
+          "yoy_pct": 16.23,
+          "row_label": "Net Profit/(Loss) for the period [9-10]",
+          "evidence": "11 Net Profit/ (Loss) for the period [ 9 - 1 0 ] | 3,699.59 | 2,385.24 | 3,183.09"
+        }
+      },
+      "ebitda": {
+        "Q2_FY27": 10994.02,
+        "Q1_FY27": 9015.01,
+        "Q2_FY26": 8526.88
+      },
+      "ebitda_note": "Calculated as PBT + Finance cost + Depreciation - Other income, as specified in the assignment.",
+      "notes": [
+        "Deterministic extraction from Consolidated Statement of Profit and Loss, PDF page 15.",
+        "Revenue uses total revenue from operations, including other operating revenues.",
+        "PAT is consolidated net profit for the period before attribution to owners and non-controlling interests."
+      ],
+      "validation": {
+        "status": "validated",
+        "issues": [],
+        "verification_method": "pdf_text_and_numeric_evidence"
+      },
+      "extraction_method": "pymupdf_deterministic",
+      "model": null,
+      "extracted_at_epoch": 1794761824
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "processed": 5,
+    "validated": 5,
+    "manual_review": 0,
+    "failed": 0
+  }
+}
