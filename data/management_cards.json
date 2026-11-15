@@ -1,0 +1,851 @@
+{
+  "generated_at": "2026-11-15T22:38:39",
+  "source_file": "announcements_scored.json",
+  "total_cards": 20,
+  "verified_backgrounds": 7,
+  "backgrounds_unavailable": 13,
+  "cards_requiring_filing_review": 12,
+  "completeness": {
+    "person_identified": 13,
+    "role_identified": 13,
+    "effective_date_identified": 8
+  },
+  "validation": {
+    "status": "passed",
+    "issues": []
+  },
+  "cards": [
+    {
+      "card_id": "44ba0161-d9e4-4bd1-aae7-eb3bc46319dd",
+      "company": "HDFC Bank Ltd",
+      "nse_symbol": "HDFCBANK",
+      "date_time": "2026-11-13T16:30:11.85",
+      "priority": "High",
+      "priority_score": 14.4,
+      "action": "reappointment",
+      "person_name": "V. Srinivasa Rangan",
+      "counterparty_person": null,
+      "role": "Whole-time Director(designated as Executive Director) of HDFC Bank Limited",
+      "effective_date": null,
+      "summary": "HDFC Bank Ltd: reports reappointment involving V. Srinivasa Rangan. Role: Whole-time Director(designated as Executive Director) of HDFC Bank Limited.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Re-appointment of Mr. V. Srinivasa Rangan as the Whole-time Director(designated as Executive Director) of HDFC Bank Limited.",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7b9eb8a8-fa88-453b-810f-b55034589aac.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": null,
+        "daily_change_pct": null,
+        "volume_ratio": null
+      }
+    },
+    {
+      "card_id": "16286674-572c-48bc-a47c-b8a9d5c07363",
+      "company": "HDFC Bank Ltd",
+      "nse_symbol": "HDFCBANK",
+      "date_time": "2026-11-12T17:27:27.333",
+      "priority": "High",
+      "priority_score": 14.4,
+      "action": "reappointment",
+      "person_name": "V. Srinivasa Rangan",
+      "counterparty_person": null,
+      "role": "Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+      "effective_date": null,
+      "summary": "HDFC Bank Ltd: reports reappointment involving V. Srinivasa Rangan. Role: Whole-time Director (designated as Executive Director) of HDFC Bank Limited.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan as the Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+        "subject": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6df1f05c-9926-47ce-9896-94c41bdb71ab.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-11-13",
+        "daily_change_pct": -1.02,
+        "volume_ratio": 0.59
+      }
+    },
+    {
+      "card_id": "be305212-ae95-4757-93fe-23429494a3c8",
+      "company": "HDFC Bank Ltd",
+      "nse_symbol": "HDFCBANK",
+      "date_time": "2026-10-31T22:14:41.877",
+      "priority": "High",
+      "priority_score": 14.4,
+      "action": "change",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "HDFC Bank Ltd: reports a management/directorate change involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Disclosure under Regulation 30 read with Clause 7 of Paragraph A of Part A of Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b36ff756-1cf7-44a3-9b2c-4583e7e0e792.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-11-02",
+        "daily_change_pct": 1.04,
+        "volume_ratio": 0.7
+      }
+    },
+    {
+      "card_id": "eee0209e-2a9c-4d1c-91a1-8b1dbc6868a2",
+      "company": "HDFC Bank Ltd",
+      "nse_symbol": "HDFCBANK",
+      "date_time": "2026-10-27T08:06:22.633",
+      "priority": "High",
+      "priority_score": 14.4,
+      "action": "appointment",
+      "person_name": "Anup Bagchi",
+      "counterparty_person": "Sashidhar Jagdishan",
+      "role": "Managing Director and Chief Executive Officer",
+      "effective_date": "27 October 2026",
+      "summary": "HDFC Bank Ltd: reports appointment involving Anup Bagchi. The filing also identifies Sashidhar Jagdishan in connection with this transition. Role: Managing Director and Chief Executive Officer. Effective date: 27 October 2026.",
+      "person_background": {
+        "text": "Over three decades of experience across banking, capital markets, wealth management and insurance. Before joining HDFC Bank as MD & CEO, he served as MD & CEO of ICICI Prudential Life Insurance and as Executive Director of ICICI Bank from 2017 to 2023, overseeing retail, business and rural banking and wholesale banking. He holds a management degree from IIM Bangalore and an engineering degree from IIT Kanpur.",
+        "sources": [
+          {
+            "type": "company_profile",
+            "title": "HDFC Bank management team – Anup Bagchi",
+            "url": "https://www.hdfc.bank.in/about-us/management-team/mr-anup-bagchi"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive ....",
+        "subject": "Disclosure Under Regulation 30 And Other Applicable Regulations Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 - Change In Managing Director And Chief Executive Officer Of The Bank",
+        "description": "Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank"
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e5b2d06f-fea8-4dea-aa03-84674215a0fd.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-10-27",
+        "daily_change_pct": -1.14,
+        "volume_ratio": 1.31
+      }
+    },
+    {
+      "card_id": "de13e516-d7a2-4b44-bfc7-829c3533423e",
+      "company": "Mahindra & Mahindra Ltd",
+      "nse_symbol": "M&M",
+      "date_time": "2026-11-05T13:04:57.26",
+      "priority": "High",
+      "priority_score": 13.0,
+      "action": "change",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "Mahindra & Mahindra Ltd: reports a management/directorate change involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Please refer the enclosed file",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f30287db-95bc-43a5-8cfe-866a566e03cb.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-11-05",
+        "daily_change_pct": 5.59,
+        "volume_ratio": 3.81
+      }
+    },
+    {
+      "card_id": "ffa8ae18-f840-4cf4-965a-616cd00c62ee",
+      "company": "Trent Ltd",
+      "nse_symbol": "TRENT",
+      "date_time": "2026-10-29T16:36:32.713",
+      "priority": "High",
+      "priority_score": 13.0,
+      "action": "retirement",
+      "person_name": "Noel N Tata",
+      "counterparty_person": null,
+      "role": "Chairman",
+      "effective_date": null,
+      "summary": "Trent Ltd: reports retirement involving Noel N Tata. Role: Chairman.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Retirement of Mr. Noel N Tata as the Chairman",
+        "subject": "Announcement under Regulation 30 (LODR)-Retirement",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d04e12f-221f-4d62-925d-0792202a19e7.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-30",
+        "daily_change_pct": 5.44,
+        "volume_ratio": 3.86
+      }
+    },
+    {
+      "card_id": "37dd4c42-b030-4d7b-9513-bf3026388a2d",
+      "company": "Trent Ltd",
+      "nse_symbol": "TRENT",
+      "date_time": "2026-10-29T16:34:37.847",
+      "priority": "High",
+      "priority_score": 13.0,
+      "action": "change",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "Trent Ltd: reports a management/directorate change involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Change in Directors",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b891b5ce-4d60-44f6-a01f-1bd507d5de0f.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-30",
+        "daily_change_pct": 5.44,
+        "volume_ratio": 3.86
+      }
+    },
+    {
+      "card_id": "9817a9b7-6de3-4bfa-8e80-ac4cf87d1d6a",
+      "company": "Bajaj Finance Ltd",
+      "nse_symbol": "BAJFINANCE",
+      "date_time": "2026-10-19T18:18:41.203",
+      "priority": "Medium",
+      "priority_score": 12.0,
+      "action": "reappointment",
+      "person_name": "Prashant Verma",
+      "counterparty_person": null,
+      "role": "Chief Information Security Officer (CISO) as per RBI Guidelines",
+      "effective_date": "1 February 2027",
+      "summary": "Bajaj Finance Ltd: reports reappointment involving Prashant Verma. Role: Chief Information Security Officer (CISO) as per RBI Guidelines. Effective date: 1 February 2027.",
+      "person_background": {
+        "text": "Around 21 years of experience in the security domain. He has served as Bajaj Finance's Chief Information Security Officer since February 2024, joined the company as head of its Cyber Risk Unit, and previously architected security services and worked as a security auditor and consultant for domestic and international banks and insurers. He is a CISSP and co-author of security books.",
+        "sources": [
+          {
+            "type": "company_filing",
+            "title": "Bajaj Finance change in senior management filing, 19 October 2026",
+            "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb4bfa8c-5285-4b6f-86c3-852bf82c8015.pdf"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "The Board of Directors at their meeting held today, i.e., 19 October 2026, approved the re-appointment of Prashant Verma as Chief Information Security Officer (CISO) as per RBI Guidelines, ....",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+        "description": "The Board of Directors at their meeting held today, i.e., 19 October 2026, approved the re-appointment of Prashant Verma as Chief Information Security Officer (CISO) as per RBI Guidelines, effective 1 February 2027, for a period of 3 years, subject to regulatory approvals, if any."
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb4bfa8c-5285-4b6f-86c3-852bf82c8015.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-10-21",
+        "daily_change_pct": -3.27,
+        "volume_ratio": 2.36
+      }
+    },
+    {
+      "card_id": "0c0dcc05-db79-4140-8499-c26e5a86ec77",
+      "company": "AXIS Bank Ltd",
+      "nse_symbol": "AXISBANK",
+      "date_time": "2026-10-17T14:27:14.45",
+      "priority": "Medium",
+      "priority_score": 11.5,
+      "action": "appointment",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "AXIS Bank Ltd: reports appointment involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Appointment of Senior Management Personnel",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/814921b8-1293-4300-ad78-279f39338fe2.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-19",
+        "daily_change_pct": -4.19,
+        "volume_ratio": 1.89
+      }
+    },
+    {
+      "card_id": "4de0b0df-dd85-401a-9d6b-dd85fc660c4f",
+      "company": "Tata Steel Ltd",
+      "nse_symbol": "TATASTEEL",
+      "date_time": "2026-11-07T13:35:49.073",
+      "priority": "Medium",
+      "priority_score": 10.5,
+      "action": "retirement",
+      "person_name": "Noel Naval Tata",
+      "counterparty_person": null,
+      "role": "Non-Executive, Non-Independent Director and as Vice-Chairman of the Board",
+      "effective_date": null,
+      "summary": "Tata Steel Ltd: reports retirement involving Noel Naval Tata. Role: Non-Executive, Non-Independent Director and as Vice-Chairman of the Board.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Retirement of Mr. Noel Naval Tata as Non-Executive, Non-Independent Director and as Vice-Chairman of the Board",
+        "subject": "Announcement under Regulation 30 (LODR)-Retirement",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/22765a70-fd05-4bea-85bb-001eca66c2c1.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-11-09",
+        "daily_change_pct": -0.78,
+        "volume_ratio": 2.24
+      }
+    },
+    {
+      "card_id": "39411793-001f-4adf-82c6-2fa5985df914",
+      "company": "Trent Ltd",
+      "nse_symbol": "TRENT",
+      "date_time": "2026-10-18T18:44:51.403",
+      "priority": "Medium",
+      "priority_score": 10.0,
+      "action": "resignation",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "Trent Ltd: reports resignation involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Intimation of resignation of Non-Executive Non-Independent Director of the Company",
+        "subject": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f2619df-b01f-4905-978f-00de8477b2f8.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-19",
+        "daily_change_pct": -2.27,
+        "volume_ratio": 0.71
+      }
+    },
+    {
+      "card_id": "5150eaed-a8cd-441c-a29e-e8a2a1d14c9b",
+      "company": "Cipla Ltd",
+      "nse_symbol": "CIPLA",
+      "date_time": "2026-10-27T13:52:12.57",
+      "priority": "Medium",
+      "priority_score": 9.2,
+      "action": "appointment",
+      "person_name": "Rashmi Joshi",
+      "counterparty_person": null,
+      "role": "an additional and independent director",
+      "effective_date": "27th October, 2026",
+      "summary": "Cipla Ltd: reports appointment involving Rashmi Joshi. Role: an additional and independent director. Effective date: 27th October, 2026.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Please find enclosed the intimation for Appointment of Ms Rashmi Joshi as an additional and independent director of the Company w.e.f. 27th October, 2026 for a period of 5 years.",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f3227e18-e0ed-4fe9-b009-f15460aeee5e.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-10-27",
+        "daily_change_pct": -0.37,
+        "volume_ratio": 4.17
+      }
+    },
+    {
+      "card_id": "f0338f47-7ea4-47f5-9004-ee7ebf760e10",
+      "company": "Cipla Ltd",
+      "nse_symbol": "CIPLA",
+      "date_time": "2026-10-27T13:48:26.567",
+      "priority": "Medium",
+      "priority_score": 9.2,
+      "action": "appointment",
+      "person_name": "Rashmi Joshi",
+      "counterparty_person": null,
+      "role": "an additional and independent director",
+      "effective_date": "27th October, 2026",
+      "summary": "Cipla Ltd: reports appointment involving Rashmi Joshi. Role: an additional and independent director. Effective date: 27th October, 2026.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Please find enclosed the intimation for appointment of Ms Rashmi Joshi as an additional and independent director of the company w.e.f. 27th October, 2026 for a period of 5 years.",
+        "subject": "Board Meeting Outcome for Outcome Of Board Meeting Dated 27Th October, 2026.",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6325a7ea-8402-4f9a-893e-3cf1c8fb9373.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-10-27",
+        "daily_change_pct": -0.37,
+        "volume_ratio": 4.17
+      }
+    },
+    {
+      "card_id": "870b7af4-26d2-4bcd-8331-67177747eafb",
+      "company": "AXIS Bank Ltd",
+      "nse_symbol": "AXISBANK",
+      "date_time": "2026-11-01T18:40:24.087",
+      "priority": "Medium",
+      "priority_score": 9.0,
+      "action": "cessation",
+      "person_name": "Girish Paranjpe",
+      "counterparty_person": null,
+      "role": "Independent Director",
+      "effective_date": "November 1, 2026",
+      "summary": "AXIS Bank Ltd: reports cessation involving Girish Paranjpe. Role: Independent Director. Effective date: November 1, 2026.",
+      "person_background": {
+        "text": "Served as Co-CEO of Wipro’s IT Business from 2008 to 2011 and spent more than two decades at Wipro. He later served as Managing Director of Bloom Energy International and has been involved in technology-focused venture investing. He is a Commerce graduate and a member of the ICAI and ICWAI.",
+        "sources": [
+          {
+            "type": "company_profile",
+            "title": "Axis Bank – Girish Paranjpe, Director",
+            "url": "https://www.axis.bank.in/about-us/board-of-directors/girish-paranjpe"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Cessation of Girish Paranjpe as Independent Director of the Bank w.e.f. close of business hours November 1, 2026",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ef66758-27dd-45d9-b390-35ce9cdcccd9.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-11-02",
+        "daily_change_pct": -0.66,
+        "volume_ratio": 0.37
+      }
+    },
+    {
+      "card_id": "6666ef23-c2e3-4284-9fe9-039a6a578297",
+      "company": "NTPC Ltd",
+      "nse_symbol": "NTPC",
+      "date_time": "2026-10-23T17:22:55.59",
+      "priority": "Medium",
+      "priority_score": 9.0,
+      "action": "appointment",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "NTPC Ltd: reports appointment involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Intimation regarding appointment of Director",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/10820e85-f9c1-4c9c-ac54-b719df51a6f2.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-26",
+        "daily_change_pct": 0.67,
+        "volume_ratio": 0.71
+      }
+    },
+    {
+      "card_id": "54325e14-23f6-4f99-a982-5b6e40e86f04",
+      "company": "NTPC Ltd",
+      "nse_symbol": "NTPC",
+      "date_time": "2026-10-19T16:16:16.417",
+      "priority": "Medium",
+      "priority_score": 9.0,
+      "action": "appointment",
+      "person_name": "Diwakar Nath Misra",
+      "counterparty_person": null,
+      "role": "Government Nominee Director",
+      "effective_date": "19 October 2026",
+      "summary": "NTPC Ltd: reports appointment involving Diwakar Nath Misra. Role: Government Nominee Director. Effective date: 19 October 2026.",
+      "person_background": {
+        "text": "A 2000-batch IAS officer of the Assam–Meghalaya cadre, serving as Additional Secretary in the Ministry of Power. NTPC identifies him as a Government Nominee Director. His public-sector career includes senior administrative roles across state and central government departments.",
+        "sources": [
+          {
+            "type": "company_profile",
+            "title": "NTPC Board of Directors – Shri Diwakar Nath Misra",
+            "url": "https://ntpc.co.in/board-directors/shri-diwakar-nath-misra"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Disclosure attached.",
+        "subject": "Appointment Of Shri Diwakar Nath Misra, Additional Secretary, Ministry Of Power As Govt. Nominee Director On The Board Of The Company.",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27b080ce-122f-4ea5-97b8-eb6fea9d884b.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-10-21",
+        "daily_change_pct": -1.94,
+        "volume_ratio": 1.03
+      }
+    },
+    {
+      "card_id": "5ca557ee-4c4d-4e72-aba6-551e154147f2",
+      "company": "AXIS Bank Ltd",
+      "nse_symbol": "AXISBANK",
+      "date_time": "2026-10-16T09:38:55.003",
+      "priority": "Medium",
+      "priority_score": 9.0,
+      "action": "appointment",
+      "person_name": null,
+      "counterparty_person": null,
+      "role": null,
+      "effective_date": null,
+      "summary": "AXIS Bank Ltd: reports appointment involving an individual not named in the available announcement text.",
+      "person_background": {
+        "text": null,
+        "sources": [],
+        "status": "not_available"
+      },
+      "evidence": {
+        "headline": "Appointment of Independent Director",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43c7d643-2f0a-4214-82e5-701858ff2f59.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": false,
+        "role_identified": false,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-16",
+        "daily_change_pct": 0.16,
+        "volume_ratio": 1.34
+      }
+    },
+    {
+      "card_id": "9ed1d840-3f62-404f-9447-1224c45f8148",
+      "company": "Oil and Natural Gas Corporation Ltd",
+      "nse_symbol": "ONGC",
+      "date_time": "2026-11-01T17:35:37.53",
+      "priority": "Medium",
+      "priority_score": 8.7,
+      "action": "appointment",
+      "person_name": "Sunil Kumar",
+      "counterparty_person": null,
+      "role": "Chairman",
+      "effective_date": "On or after 7 December 2026",
+      "summary": "Oil and Natural Gas Corporation Ltd: reports appointment involving Sunil Kumar. Role: Chairman. Effective date: On or after 7 December 2026.",
+      "person_background": {
+        "text": "Currently an Executive Director at ONGC and Asset Manager of its Mehsana Asset. His appointment as Chairman was approved for assumption of charge on or after 7 December 2026. Public reporting identifies him as a petroleum engineering graduate of the Indian School of Mines, with a postgraduate business-management qualification focused on marketing and finance.",
+        "sources": [
+          {
+            "type": "company_filing",
+            "title": "ONGC filing: Letter from Administrative Ministry regarding appointment of Chairman",
+            "url": "https://ongcindia.com/documents/77751/2660534/appointmentChairman_23102026.pdf/68b5cdcc-6939-11b0-93d3-dd3699606044"
+          },
+          {
+            "type": "press",
+            "title": "Business Standard: Sunil Kumar appointed ONGC chairman",
+            "url": "https://www.business-standard.com/amp/companies/news/sunil-kumar-appointed-ongc-chairman-for-three-years-from-december-7-2026-126102201531_1.html"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Change in Senior Management",
+        "subject": "Change In Senior Management",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09c455e5-3b35-4818-928a-30060590c1a2.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-11-02",
+        "daily_change_pct": 4.19,
+        "volume_ratio": 1.14
+      }
+    },
+    {
+      "card_id": "6774c0c7-695d-495b-af5a-e2858bc6a6fd",
+      "company": "Cipla Ltd",
+      "nse_symbol": "CIPLA",
+      "date_time": "2026-11-04T15:11:41.24",
+      "priority": "Medium",
+      "priority_score": 7.2,
+      "action": "appointment",
+      "person_name": "Vikram Janakiraman",
+      "counterparty_person": null,
+      "role": "Global Chief Technical Operating Officer",
+      "effective_date": "7th December, 2026",
+      "summary": "Cipla Ltd: reports appointment involving Vikram Janakiraman. Role: Global Chief Technical Operating Officer. Effective date: 7th December, 2026.",
+      "person_background": {
+        "text": "Around 30 years of experience across consulting leadership and pharmaceutical operations. He joins Cipla from Boston Consulting Group as Managing Director and Senior Partner, where he built BCG India's Pharma Operations and Automotive practices and led Operations and Industrial Goods practices.",
+        "sources": [
+          {
+            "type": "company_filing",
+            "title": "Cipla appointment annexure – Brief Profile",
+            "url": "https://nsearchives.nseindia.com/corporate/CIPLA_04112026150804_Cipla_SE_SMPAppt_vfsigned.pdf"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Appointment of Mr Vikram Janakiraman, as the Global Chief Technical Operating Officer, designated as a Senior Management Personnel of the Company, with effect from 7th December, 2026.",
+        "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+        "description": ""
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a485cb04-98df-4d20-8f45-5763f7f45ff2.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": true,
+        "requires_filing_review": false
+      },
+      "market_context": {
+        "signal_date": "2026-11-04",
+        "daily_change_pct": 0.37,
+        "volume_ratio": 1.11
+      }
+    },
+    {
+      "card_id": "9f108dde-6e2b-47c4-9e83-9360e59ce1e3",
+      "company": "Oil and Natural Gas Corporation Ltd",
+      "nse_symbol": "ONGC",
+      "date_time": "2026-10-23T13:03:24.91",
+      "priority": "Medium",
+      "priority_score": 7.2,
+      "action": "appointment",
+      "person_name": "Sunil Kumar",
+      "counterparty_person": null,
+      "role": "Chairman",
+      "effective_date": null,
+      "summary": "Oil and Natural Gas Corporation Ltd: reports appointment involving Sunil Kumar. Role: Chairman.",
+      "person_background": {
+        "text": "Currently an Executive Director at ONGC and Asset Manager of its Mehsana Asset. His appointment as Chairman was approved for assumption of charge on or after 7 December 2026. Public reporting identifies him as a petroleum engineering graduate of the Indian School of Mines, with a postgraduate business-management qualification focused on marketing and finance.",
+        "sources": [
+          {
+            "type": "company_filing",
+            "title": "ONGC filing: Letter from Administrative Ministry regarding appointment of Chairman",
+            "url": "https://ongcindia.com/documents/77751/2660534/appointmentChairman_23102026.pdf/68b5cdcc-6939-11b0-93d3-dd3699606044"
+          },
+          {
+            "type": "press",
+            "title": "Business Standard: Sunil Kumar appointed ONGC chairman",
+            "url": "https://www.business-standard.com/amp/companies/news/sunil-kumar-appointed-ongc-chairman-for-three-years-from-december-7-2026-126102201531_1.html"
+          }
+        ],
+        "status": "verified"
+      },
+      "evidence": {
+        "headline": "Ministry of Petroleum and Natural Gas has conveyed that ACC has approved the appointment of Shri Sunil Kumar to the post of Chairman w.e.f. the date of assumption of charge of the post ....",
+        "subject": "Letter From Administrative Ministry Regarding Appointment Of Chairman",
+        "description": "Ministry of Petroleum and Natural Gas has conveyed that ACC has approved the appointment of Shri Sunil Kumar to the post of Chairman w.e.f. the date of assumption of charge of the post on or after 07.12.2026."
+      },
+      "source": "BSE",
+      "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ee49e19e-25eb-48be-945b-c720d84a335c.pdf",
+      "classification_confidence": 0.95,
+      "needs_manual_review": false,
+      "data_quality": {
+        "person_identified": true,
+        "role_identified": true,
+        "effective_date_identified": false,
+        "requires_filing_review": true
+      },
+      "market_context": {
+        "signal_date": "2026-10-23",
+        "daily_change_pct": 1.11,
+        "volume_ratio": 1.26
+      }
+    }
+  ]
+}

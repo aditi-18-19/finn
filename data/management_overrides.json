@@ -1,0 +1,21 @@
+{
+  "eee0209e-2a9c-4d1c-91a1-8b1dbc6868a2": {
+    "action": "appointment",
+    "person_name": "Anup Bagchi",
+    "counterparty_person": "Sashidhar Jagdishan",
+    "role": "Managing Director and Chief Executive Officer",
+    "effective_date": "27 October 2026"
+  },
+  "54325e14-23f6-4f99-a982-5b6e40e86f04": {
+    "action": "appointment",
+    "person_name": "Diwakar Nath Misra",
+    "role": "Government Nominee Director",
+    "effective_date": "19 October 2026"
+  },
+  "9ed1d840-3f62-404f-9447-1224c45f8148": {
+    "action": "appointment",
+    "person_name": "Sunil Kumar",
+    "role": "Chairman",
+    "effective_date": "On or after 7 December 2026"
+  }
+}
