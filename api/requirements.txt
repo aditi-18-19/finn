@@ -1,0 +1,2 @@
+# Kept in sync with the root deployment requirements.
+-r ../requirements.txt

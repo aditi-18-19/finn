@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T22:52:03",
+  "generated_at": "2026-11-15T22:58:50",
   "window": {
     "hours": 720,
-    "start": "2026-10-16T22:52:03",
-    "end": "2026-11-15T22:52:03"
+    "start": "2026-10-16T22:58:50",
+    "end": "2026-11-15T22:58:50"
   },
   "portfolio_symbols": [
     "CIPLA",

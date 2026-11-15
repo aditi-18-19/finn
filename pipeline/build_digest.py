@@ -27,6 +27,7 @@ DEFAULT_RESULTS = DATA / "results" / "results_cards.json"
 DEFAULT_MANAGEMENT = DATA / "management_cards.json"
 DEFAULT_DIGEST = DATA / "digest.json"
 DEFAULT_ALERTS = DATA / "alerts.json"
+DEFAULT_RULES = ROOT / "config" / "rules.json"
 MATERIAL_CATEGORIES = {
     "results", "M&A", "fund_raise", "management_change", "litigation",
     "insider_trading", "credit_rating", "pledging", "capex",
@@ -222,12 +223,44 @@ def make_digest(announcements: list[dict], prices: dict, hours: int,
     }
 
 
+def validate_alert_rules(config: dict) -> dict:
+    """Validate and normalize user-editable alert rules."""
+    if not isinstance(config, dict):
+        raise ValueError("Alert rules must be a JSON object")
+    price = finite_number(config.get("price_change_pct", 5.0))
+    volume = finite_number(config.get("volume_ratio", 2.0))
+    if price is None or not 0 < price <= 100:
+        raise ValueError("price_change_pct must be a number greater than 0 and at most 100")
+    if volume is None or not 0 < volume <= 1000:
+        raise ValueError("volume_ratio must be a number greater than 0 and at most 1000")
+    categories = config.get("material_categories", sorted(MATERIAL_CATEGORIES))
+    if not isinstance(categories, list) or any(not isinstance(x, str) for x in categories):
+        raise ValueError("material_categories must be a list of announcement category names")
+    unknown = sorted(set(categories) - MATERIAL_CATEGORIES)
+    if unknown:
+        raise ValueError(f"Unknown material_categories: {', '.join(unknown)}")
+    return {
+        "price_change_pct": price,
+        "volume_ratio": volume,
+        "material_categories": sorted(set(categories)),
+    }
+
+
+def load_alert_rules(path: Path = DEFAULT_RULES) -> dict:
+    """Load rules from JSON, falling back to documented defaults if absent."""
+    if not path.exists():
+        return validate_alert_rules({})
+    payload = read_json(path)
+    return validate_alert_rules(payload)
+
+
 def make_alerts(announcements: list[dict], prices: dict, config: dict,
                 as_of: datetime, portfolio_symbols: set[str] | None = None,
                 announcement_window_hours: int = 24) -> dict:
-    categories = set(config.get("material_categories", MATERIAL_CATEGORIES))
-    price_threshold = float(config.get("price_change_pct", 3.0))
-    volume_threshold = float(config.get("volume_ratio", 2.0))
+    config = validate_alert_rules(config)
+    categories = set(config["material_categories"])
+    price_threshold = float(config["price_change_pct"])
+    volume_threshold = float(config["volume_ratio"])
     alert_rows: list[dict] = []
     portfolio = set(portfolio_symbols) if portfolio_symbols is not None else set(prices.keys())
     announcement_cutoff = as_of - timedelta(hours=announcement_window_hours)
@@ -294,15 +327,28 @@ def main() -> int:
     ap.add_argument("--management-cards", type=Path, default=DEFAULT_MANAGEMENT)
     ap.add_argument("--hours", type=int, default=24)
     ap.add_argument("--include-routine", action="store_true")
-    ap.add_argument("--price-change-pct", type=float, default=3.0)
-    ap.add_argument("--volume-ratio", type=float, default=2.0)
+    ap.add_argument("--rules", type=Path, default=DEFAULT_RULES, help="JSON alert rules file")
+    ap.add_argument("--price-change-pct", type=float, default=None, help="Override configured daily price-move threshold")
+    ap.add_argument("--volume-ratio", type=float, default=None, help="Override configured volume-ratio threshold")
     ap.add_argument("--alert-hours", type=int, default=24, help="Announcement alert lookback window")
     ap.add_argument("--as-of", help="Optional ISO timestamp for reproducible runs")
     ap.add_argument("--digest-out", type=Path, default=DEFAULT_DIGEST)
     ap.add_argument("--alerts-out", type=Path, default=DEFAULT_ALERTS)
     args = ap.parse_args()
-    if args.hours <= 0 or args.alert_hours <= 0 or args.price_change_pct <= 0 or args.volume_ratio <= 0:
-        ap.error("hours and alert thresholds must be positive")
+    if args.hours <= 0 or args.alert_hours <= 0:
+        ap.error("hours and alert lookback must be positive")
+    try:
+        rules = load_alert_rules(args.rules)
+    except (ValueError, FileNotFoundError, json.JSONDecodeError) as exc:
+        ap.error(str(exc))
+    if args.price_change_pct is not None:
+        rules["price_change_pct"] = args.price_change_pct
+    if args.volume_ratio is not None:
+        rules["volume_ratio"] = args.volume_ratio
+    try:
+        rules = validate_alert_rules(rules)
+    except ValueError as exc:
+        ap.error(str(exc))
     announcements = read_json(args.announcements)
     prices = read_json(args.prices)
     if not isinstance(announcements, list) or not isinstance(prices, dict):
@@ -319,8 +365,7 @@ def main() -> int:
                          else set(prices.keys()))
     digest = make_digest(announcements, prices, args.hours, as_of, args.include_routine,
                          results_cards, management_cards, portfolio_symbols)
-    alerts = make_alerts(announcements, prices,
-                         {"price_change_pct": args.price_change_pct, "volume_ratio": args.volume_ratio}, as_of, portfolio_symbols, args.alert_hours)
+    alerts = make_alerts(announcements, prices, rules, as_of, portfolio_symbols, args.alert_hours)
     args.digest_out.parent.mkdir(parents=True, exist_ok=True)
     args.alerts_out.parent.mkdir(parents=True, exist_ok=True)
     args.digest_out.write_text(json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8")

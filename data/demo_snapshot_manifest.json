@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-11-15T19:25:00.799208+00:00",
+  "mode": "offline_snapshot",
+  "network_calls": 0,
+  "artifacts": {
+    "prices.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\prices.json",
+      "bytes": 371696,
+      "sha256": "3c9d4f80655a1cd21e7ced837f5b8fd097741df4b2051f1f2a0d695805c942f0"
+    },
+    "announcements_scored.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\announcements_scored.json",
+      "bytes": 582116,
+      "sha256": "b75e5bf868e861d35238b36d9e3557aaf4f4299d5b52621514ffc8d0585c0244"
+    },
+    "digest.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\digest.json",
+      "bytes": 249012,
+      "sha256": "d81f2bf920e392c639d69760fa04e8618f53ee3d1b88f0b1d06d9d159094fb04"
+    },
+    "alerts.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\alerts.json",
+      "bytes": 57786,
+      "sha256": "ca3209034e64ad14dfabb9590dae6fcbf82d6f5f6856584dd7808d5f8cfaff3a"
+    },
+    "results_cards.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\results\\results_cards.json",
+      "bytes": 19378,
+      "sha256": "9e45e2f7d9aa5069b196573664eed459eba5a3d4e964463e4e678208804d3429"
+    },
+    "management_cards.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\management_cards.json",
+      "bytes": 36906,
+      "sha256": "a301f16b2fb952207a88ce5f9063607f8626a1850b9bb57d1b9cb6c0cb0ff6de"
+    },
+    "announcements_classified.json": {
+      "exists": true,
+      "valid_json": true,
+      "path": "data\\announcements_classified.json",
+      "bytes": 364430,
+      "sha256": "f35bc263ce38322136738aca65a2431e662d8708695536daf8274a852e14a985"
+    }
+  },
+  "companies": {
+    "price_symbols": [
+      "AXISBANK",
+      "BAJFINANCE",
+      "BHARTIARTL",
+      "CIPLA",
+      "HDFCBANK",
+      "HINDALCO",
+      "HINDUNILVR",
+      "ICICIBANK",
+      "INFY",
+      "ITC",
+      "KAYNES",
+      "M&M",
+      "MARUTI",
+      "NTPC",
+      "ONGC",
+      "POLYCAB",
+      "RELIANCE",
+      "SBIN",
+      "SUNPHARMA",
+      "TATASTEEL",
+      "TCS",
+      "TRENT"
+    ],
+    "scored_symbols": [
+      "AXISBANK",
+      "BAJFINANCE",
+      "BHARTIARTL",
+      "CIPLA",
+      "HDFCBANK",
+      "HINDALCO",
+      "HINDUNILVR",
+      "ICICIBANK",
+      "INFY",
+      "ITC",
+      "KAYNES",
+      "M&M",
+      "MARUTI",
+      "NTPC",
+      "ONGC",
+      "POLYCAB",
+      "RELIANCE",
+      "SBIN",
+      "SUNPHARMA",
+      "TATASTEEL",
+      "TCS",
+      "TRENT"
+    ]
+  },
+  "digest_items": 104,
+  "digest_symbols": [
+    "CIPLA",
+    "HDFCBANK",
+    "HINDALCO",
+    "HINDUNILVR",
+    "ICICIBANK",
+    "INFY",
+    "ITC",
+    "KAYNES",
+    "M&M",
+    "MARUTI",
+    "NTPC",
+    "ONGC",
+    "POLYCAB",
+    "RELIANCE",
+    "SBIN",
+    "SUNPHARMA",
+    "TATASTEEL"
+  ],
+  "alert_count": 86,
+  "status": "ok",
+  "missing_or_invalid": []
+}

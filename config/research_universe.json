@@ -1,0 +1,10 @@
+{
+  "research_companies": [
+    "AXISBANK",
+    "BAJFINANCE",
+    "BHARTIARTL",
+    "TRENT"
+  ],
+  "annual_reports_per_company": 2,
+  "concall_transcripts_per_company": 4
+}

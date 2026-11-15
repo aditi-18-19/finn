@@ -48,7 +48,7 @@ class DigestTests(unittest.TestCase):
     def test_market_alert_thresholds(self):
         result = mod.make_alerts([], {"ABC": {"records": [
             {"date": "2026-11-15", "daily_change_pct": -3.2, "volume_ratio": 2.4}
-        ]}}, {}, self.as_of, {"ABC"}, 24)
+        ]}}, {"price_change_pct": 3.0, "volume_ratio": 2.0}, self.as_of, {"ABC"}, 24)
         self.assertEqual(result["summary"]["market_anomalies"], 1)
         self.assertEqual(len(result["alerts"][0]["triggers"]), 2)
 
@@ -109,6 +109,55 @@ class DigestTests(unittest.TestCase):
         enriched = [x for x in result["items"] if x["digest_enrichment"]]
         self.assertEqual(len(enriched), 1)
         self.assertEqual(enriched[0]["news_id"], "result1")
+
+
+    def test_default_alert_rules(self):
+        rules = mod.validate_alert_rules({})
+        self.assertEqual(rules["price_change_pct"], 5.0)
+        self.assertEqual(rules["volume_ratio"], 2.0)
+        self.assertIn("results", rules["material_categories"])
+
+    def test_custom_price_threshold_changes_alert_list(self):
+        prices = {"ABC": {"records": [{"date": "2026-11-15", "daily_change_pct": 4.0, "volume_ratio": 1.0}]}}
+        default_result = mod.make_alerts([], prices, {}, self.as_of, {"ABC"}, 24)
+        custom_result = mod.make_alerts([], prices, {"price_change_pct": 3.0}, self.as_of, {"ABC"}, 24)
+        self.assertEqual(default_result["summary"]["market_anomalies"], 0)
+        self.assertEqual(custom_result["summary"]["market_anomalies"], 1)
+
+    def test_custom_volume_threshold_changes_alert_list(self):
+        prices = {"ABC": {"records": [{"date": "2026-11-15", "daily_change_pct": 1.0, "volume_ratio": 1.7}]}}
+        default_result = mod.make_alerts([], prices, {}, self.as_of, {"ABC"}, 24)
+        custom_result = mod.make_alerts([], prices, {"volume_ratio": 1.5}, self.as_of, {"ABC"}, 24)
+        self.assertEqual(default_result["summary"]["market_anomalies"], 0)
+        self.assertEqual(custom_result["summary"]["market_anomalies"], 1)
+
+    def test_watched_categories_filter_material_announcements(self):
+        result = mod.make_alerts(self.announcements, {}, {"material_categories": ["M&A"]}, self.as_of, {"ABC"}, 24)
+        self.assertEqual(result["summary"]["material_announcements"], 0)
+        result = mod.make_alerts(self.announcements, {}, {"material_categories": ["results"]}, self.as_of, {"ABC"}, 24)
+        self.assertEqual(result["summary"]["material_announcements"], 1)
+
+    def test_invalid_alert_rules_are_rejected(self):
+        for rules in (
+            {"price_change_pct": 0},
+            {"volume_ratio": -1},
+            {"material_categories": "results"},
+            {"material_categories": ["not_a_category"]},
+        ):
+            with self.subTest(rules=rules):
+                with self.assertRaises(ValueError):
+                    mod.validate_alert_rules(rules)
+
+    def test_load_alert_rules_from_json(self):
+        import json, tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "rules.json"
+            path.write_text(json.dumps({"price_change_pct": 4.5, "volume_ratio": 1.8, "material_categories": ["results"]}), encoding="utf-8")
+            rules = mod.load_alert_rules(path)
+        self.assertEqual(rules["price_change_pct"], 4.5)
+        self.assertEqual(rules["volume_ratio"], 1.8)
+        self.assertEqual(rules["material_categories"], ["results"])
 
 
 if __name__ == "__main__":

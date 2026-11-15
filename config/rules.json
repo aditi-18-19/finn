@@ -1,0 +1,14 @@
+{
+  "price_change_pct": 12.5,
+  "volume_ratio": 4.5,
+  "material_categories": [
+    "results",
+    "M&A",
+    "fund_raise",
+    "management_change",
+    "litigation",
+    "insider_trading",
+    "credit_rating",
+    "capex"
+  ]
+}

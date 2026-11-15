@@ -1,28 +1,47 @@
-
-# API keys and secrets
+# Secrets and local environment files
 .env
 .env.*
 !.env.example
+!.env.*.example
 
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Next.js
+# Node / Next.js
 node_modules/
 .next/
 out/
 
-# Environment and temporary files
-*.log
+# IDE / OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# IDE
-.vscode/
-.idea/
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
 
-# Generated data and cached files
+# Generated/private research material and caches
 data/cache/
+data/raw/
+data/docs/
+data/llm_cache/
+data/llm_bakeoff/
+data/research/
+data/research_answers/
+data/manual_review_queue.csv
+deployment_check/
+FINN_Deployment_Check.zip
+
+# Local model / embedding artifacts
+*.onnx
+*.bin
+*.safetensors
